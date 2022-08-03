@@ -1,0 +1,28 @@
+
+.navbar.navbar-expand-lg.bg-secondary{
+    background: rgb(171,53,250);
+    background: -moz-linear-gradient(0deg, rgba(171,53,250,1) 24%, rgba(131,58,180,1) 33%, rgba(250,49,49,1) 39%, rgba(227,158,61,1) 67%);
+    background: -webkit-linear-gradient(0deg, rgba(171,53,250,1) 24%, rgba(131,58,180,1) 33%, rgba(250,49,49,1) 39%, rgba(227,158,61,1) 67%);
+    background: linear-gradient(0deg, rgba(171,53,250,1) 24%, rgba(131,58,180,1) 33%, rgba(250,49,49,1) 39%, rgba(227,158,61,1) 67%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ab35fa",endColorstr="#e39e3d",GradientType=1);
+
+/*
+https://cssgradient.io/
+*/
+
+}
+/* Color de las redes del puntero(hover) */ 
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color:rgb(38, 0, 255);
+}    
+i.fa-brands.fa-square-instagram.fa-2xl:hover{
+    color: pink;
+}
+i.fa-brands.fa-github.fa-2xl:hover{
+    color: aqua;
+}
+
+/* fondo de redes transparente*/
+.list-group{
+    --bs-list-group-bg: transparent;
+}
